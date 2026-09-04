@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 115" width="100%" height="115">
+  <defs>
+    <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5A93C"/>
+      <stop offset="25%" stop-color="#E5A93C"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="75%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#E63946"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Track Base -->
+  <line x1="45" y1="42" x2="715" y2="42" stroke="#21262D" stroke-width="4" stroke-linecap="round"/>
+  <line x1="45" y1="42" x2="715" y2="42" stroke="url(#trackGrad)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 6"/>
+
+  <!-- Milestone 1: IDEAS -->
+  <g transform="translate(45, 42)">
+    <circle cx="0" cy="0" r="14" fill="#0D1117" stroke="#E5A93C" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#E5A93C"/>
+    <text x="0" y="-22" fill="#F0F6FC" font-family="-apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="1">IDEAS</text>
+    <text x="0" y="28" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">Turn problems into</text>
+    <text x="0" y="41" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">possibilities</text>
+  </g>
+
+  <!-- Milestone 2: PROJECTS -->
+  <g transform="translate(210, 42)">
+    <circle cx="0" cy="0" r="14" fill="#0D1117" stroke="#E5A93C" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#E5A93C"/>
+    <text x="0" y="-22" fill="#F0F6FC" font-family="-apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="1">PROJECTS</text>
+    <text x="0" y="28" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">Build. Ship.</text>
+    <text x="0" y="41" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">Iterate.</text>
+  </g>
+
+  <!-- Milestone 3: HACKATHONS -->
+  <g transform="translate(380, 42)">
+    <circle cx="0" cy="0" r="14" fill="#0D1117" stroke="#38BDF8" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#38BDF8"/>
+    <text x="0" y="-22" fill="#F0F6FC" font-family="-apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="1">HACKATHONS</text>
+    <text x="0" y="28" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">Learn. Collaborate.</text>
+    <text x="0" y="41" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">Create impact.</text>
+  </g>
+
+  <!-- Milestone 4: OPEN SOURCE -->
+  <g transform="translate(550, 42)">
+    <circle cx="0" cy="0" r="14" fill="#0D1117" stroke="#818CF8" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#818CF8"/>
+    <text x="0" y="-22" fill="#F0F6FC" font-family="-apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="1">OPEN SOURCE</text>
+    <text x="0" y="28" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">Give back to</text>
+    <text x="0" y="41" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">the community.</text>
+  </g>
+
+  <!-- Milestone 5: A BIGGER TOMORROW -->
+  <g transform="translate(710, 42)">
+    <circle cx="0" cy="0" r="14" fill="#0D1117" stroke="#E63946" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#E63946"/>
+    <text x="-5" y="-22" fill="#F0F6FC" font-family="-apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="1">A BIGGER TOMORROW</text>
+    <text x="-5" y="28" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">Keep going.</text>
+    <text x="-5" y="41" fill="#E5A93C" font-family="-apple-system, sans-serif" font-size="9.5" text-anchor="middle">The voyage continues</text>
+  </g>
+</svg>
